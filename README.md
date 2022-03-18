@@ -4,13 +4,13 @@
 
 Clone GitHub Repo:
 
-```git clone git@github.com:quiknode-labs/DocumenationWriterInterview.git```
-```cd DocumenationWriterInterview```
+```git clone git@github.com:quiknode-labs/DocumenationWriterInterview.git``` <br/>
+```cd DocumenationWriterInterview``` <br/>
 ```cd Written```
 
 Install dependencies:
 
-```yarn```
+```yarn```<br/>
 ```yarn add express```
 
 To start server in development mode:
@@ -21,11 +21,11 @@ To start server in development mode:
 
 To test methods: start server locally and make all requests to http://localhost:3000/
 
-### GET
+#### GET
 
 Returns all transactions
 
-In this case: 
+In this case, the following will be returned: 
 
 [
     {
@@ -36,7 +36,7 @@ In this case:
 ]
 
 
-### POST
+#### POST
 
 To send a post request use the following key/value pair format:
 
@@ -55,7 +55,7 @@ Example:
 }
 
 
-### DELETE
+#### DELETE
 
 To delete a post send a delete request to: 
 
@@ -63,7 +63,10 @@ To delete a post send a delete request to:
         "id": number
 }
 
+Example:
 
-
+{
+        "id": 2
+}
 
 
