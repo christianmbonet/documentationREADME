@@ -1,7 +1,6 @@
 # Documentation Writer Interview
 
 ![Node](https://img.shields.io/node/v/no)
-![Express Logo](https://i.cloudup.com/zfY6lL7eFa-3000x3000.png)](http://expressjs.com/)
 
 Simple Express/Node.js app.
 
