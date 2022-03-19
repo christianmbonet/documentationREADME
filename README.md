@@ -1,12 +1,15 @@
 # Documentation Writer Interview
 
+![Node](node-current badge	/node/v/:packageName)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+
 Simple Express/Node.js app.
 
 ## Requirements
 
-* Node.js
+* Node.js: ">= 0.6"
 * Yarn or NPM
-* Express.js
+* Express.js: "^4.17.1"
 
 ## Setup
 
@@ -55,7 +58,7 @@ In this case, the following will be returned:
 
 POST a new transaction.
 
-To send a POST request, use the following key-value pairs format in body of the request:
+To send a POST request, use the following JSON format in body of the request:
 
 ```
 {
