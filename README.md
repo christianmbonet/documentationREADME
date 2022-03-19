@@ -36,22 +36,21 @@ cd into working directory:
 
 #### 3. Make all requests to http://localhost:3000/
 
-##### GET
+#### GET
 
 Returns all transactions
 
 In this case, the following will be returned: 
 
-[<br/>
     {<br/>
         "id": 1,<br/>
         "amount": 25,<br/>
         "to": "joe"<br/>
     }
-]
 
 
-##### POST
+
+#### POST
 
 To send a post request use the following key/value pair format:
 
@@ -70,7 +69,7 @@ Example:
 }
 
 
-##### DELETE
+#### DELETE
 
 To delete a post send a delete request to: 
 
