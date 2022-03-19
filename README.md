@@ -7,9 +7,9 @@ Simple Express/Node.js app.
 
 ## Requirements
 
-* Node: ">= 0.4"
+* Node: v0.4+
 * Yarn or NPM
-* Express.js: "^4.17.1"
+* Express: v4.17.1+
 
 ## Setup
 
