@@ -12,7 +12,7 @@ Simple Express/Node.js app.
 
 ### 1. Clone GitHub Repo
 
-From your terminal, run the following commands:
+From your terminal, run the following command:
 
 ```git clone git@github.com:quiknode-labs/DocumenationWriterInterview.git```<br/>
 
