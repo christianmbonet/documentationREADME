@@ -41,13 +41,13 @@ cd into working directory:
 Returns all transactions
 
 In this case, the following will be returned: 
-
-    {<br/>
-        "id": 1,<br/>
-        "amount": 25,<br/>
-        "to": "joe"<br/>
+```
+    {
+        "id": 1,
+        "amount": 25,
+        "to": "joe"
     }
-
+```
 
 
 #### POST
@@ -55,34 +55,35 @@ In this case, the following will be returned:
 To send a post request use the following key/value pair format:
 
 ```
-{<br/>
-        "id": number,<br/>
-        "amount": number,<br/>
-        "to": "string"<br/>
+{
+        "id": number,
+        "amount": number,
+        "to": "string"
 }
 ```
 
 Example:
-
+```
 {
-        "id": 2,<br/>
-        "amount": 30,<br/>
-        "to": "francis"<br/>
+        "id": 2,
+        "amount": 30,
+        "to": "francis"
 }
-
+```
 
 #### DELETE
 
 To delete a post send a delete request to: 
-
-{<br/>
+```
+{
         "id": number<br/>
 }
+```
 
 Example:
-
-{<br/>
-        "id": 2<br/>
+```
+{
+        "id": 2
 }
-
+```
 
