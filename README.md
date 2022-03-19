@@ -1,13 +1,13 @@
 # Documentation Writer Interview
 
-[![Node](node-current badge	/node/v/:packageName)]
-[![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)]
+![Node](https://img.shields.io/node/v/no)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
 Simple Express/Node.js app.
 
 ## Requirements
 
-* Node.js: ">= 0.6"
+* Node: ">= 0.4"
 * Yarn or NPM
 * Express.js: "^4.17.1"
 
