@@ -76,7 +76,9 @@ Example:
 
 A post request should return the following:
 
-```successfully added transaction #: 1, in the amount of 30 to: francis```
+```
+successfully added transaction #: 1, in the amount of 30 to: francis
+```
 
 #### DELETE
 
@@ -98,4 +100,6 @@ Example:
 
 A delete request should return the following:
 
-```sucessfully deleted transaction #: 1}}```
+```
+sucessfully deleted transaction #: 1}}
+```
