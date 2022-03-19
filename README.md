@@ -38,9 +38,9 @@ cd into working directory:
 
 #### GET
 
-Return all transactions.
+GET all transactions.
 
-To send a GET request, send request with the body of the request empty.
+To send a GET request, send request with an empty body in the request:
 
 In this case, the following will be returned: 
 ```
@@ -54,9 +54,9 @@ In this case, the following will be returned:
 
 #### POST
 
-Post a new transaction.
+POST a new transaction.
 
-To send a POST request use the following key/value pair format:
+To send a POST request use the following key/value pairs format in body of the request:
 
 ```
 {
@@ -81,12 +81,12 @@ A post request will return the following:
 
 #### DELETE
 
-Delete a single transaction.
+DELETE a single transaction.
 
-To delete a post send a delete request to: 
+To delete a single transaction, send a delete request with using the following key/value pairs in the body of the request:
 ```
 {
-        "id": number<br/>
+        "id": number
 }
 ```
 
