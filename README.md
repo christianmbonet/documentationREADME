@@ -36,15 +36,13 @@ cd into working directory:
 
 #### 3. Make all requests to http://localhost:3000/
 
-<br/>
-
 #### GET
 
 GET all transactions.
 
 To send a GET request, send request with an empty body in the request:
 
-In this case, the following will be returned: 
+In this case, the following should be returned: 
 ```
     {
         "id": 1,
