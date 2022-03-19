@@ -10,7 +10,7 @@ Simple Express/Node.js app.
 
 ## Setup
 
-### 1. Clone GitHub Repo
+#### 1. Clone GitHub Repo
 
 From your terminal, run the following command:
 
@@ -21,26 +21,26 @@ cd into working directory:
 ```cd DocumenationWriterInterview```<br/>
 ```cd Written```
 
-### 2. Install Dependencies
+#### 2. Install Dependencies
 
 ```yarn```<br/>
 ```yarn add express```
 
 ## To Test Methods:
 
-#### 1. Download Postman or Insomnia for testing.
+##### 1. Download Postman or Insomnia for testing.
 
-#### 2. Start server in development mode:
+##### 2. Start server in development mode:
 
 ```yarn dev```
 
-#### 3. Make all requests to http://localhost:3000/
+##### 3. Make all requests to http://localhost:3000/
 
-#### GET Request
+#### GET
 
 GET all transactions.
 
-To send a GET request, send request with an empty body in the request:
+To send a GET request, send request with an empty body:
 
 In this case, the following should be returned: 
 ```
@@ -52,7 +52,7 @@ In this case, the following should be returned:
 ```
 
 
-#### POST Request
+#### POST
 
 POST a new transaction.
 
@@ -79,7 +79,7 @@ A post request should return the following:
 
 ```successfully added transaction #: 1, in the amount of 30 to: francis```
 
-#### DELETE Request
+#### DELETE
 
 DELETE a single transaction.
 
