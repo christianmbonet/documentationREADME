@@ -1,25 +1,37 @@
 # Documentation Writer Interview
 
+Simple Express/Node.js app.
+
+## Requirements
+
+* Node.js
+* Yarn or NPM
+* Express.js
+
 ## Setup
 
-Clone GitHub Repo:
+#### Clone GitHub Repo:
 
-```git clone git@github.com:quiknode-labs/DocumenationWriterInterview.git``` <br/>
-```cd DocumenationWriterInterview``` <br/>
+In your terminal run the following commands:
+
+```git clone git@github.com:quiknode-labs/DocumenationWriterInterview.git```<br/>
+```cd DocumenationWriterInterview```<br/>
 ```cd Written```
 
-Install dependencies:
+Once inside "Written" folder, install dependencies by running the following:
 
 ```yarn```<br/>
 ```yarn add express```
 
-To start server in development mode:
+## To Test Methods:
+
+Start server in development mode:
 
 ```yarn dev```
 
-## Methods
+Use Postman or Insomnia to test methods.
 
-To test methods: start server locally and make all requests to http://localhost:3000/
+Make all requests to http://localhost:3000/
 
 #### GET
 
@@ -27,11 +39,11 @@ Returns all transactions
 
 In this case, the following will be returned: 
 
-[
-    {
-        "id": 1,
-        "amount": 25,
-        "to": "joe"
+[<br/>
+    {<br/>
+        "id": 1,<br/>
+        "amount": 25,<br/>
+        "to": "joe"<br/>
     }
 ]
 
@@ -40,18 +52,18 @@ In this case, the following will be returned:
 
 To send a post request use the following key/value pair format:
 
-{
-        "id": number,
-        "amount": number,
-        "to": "string"
+{<br/>
+        "id": number,<br/>
+        "amount": number,<br/>
+        "to": "string"<br/>
 }
 
 Example:
 
-{
-        "id": 2,
-        "amount": 30,
-        "to": "francis"
+{<br/>
+        "id": 2,<br/>
+        "amount": 30,<br/>
+        "to": "francis"<br/>
 }
 
 
@@ -59,14 +71,14 @@ Example:
 
 To delete a post send a delete request to: 
 
-{
-        "id": number
+{<br/>
+        "id": number<br/>
 }
 
 Example:
 
-{
-        "id": 2
+{<br/>
+        "id": 2<br/>
 }
 
 
