@@ -1,15 +1,15 @@
 # Documentation Writer Interview
 
-![Node](https://img.shields.io/node/v/no?style=for-the-badge)
+![Node](https://img.shields.io/node/v/express?style=for-the-badge)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
 Simple Express/Node.js app.
 
 ## Requirements
 
-* Node: v0.4+
+* Node: v0.10+
 * Yarn or NPM
-* Express: v4.17.1+
+* Express.js: v4.17.1+
 
 ## Setup
 
