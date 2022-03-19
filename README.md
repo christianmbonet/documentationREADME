@@ -1,7 +1,7 @@
 # Documentation Writer Interview
 
-![Node](node-current badge	/node/v/:packageName)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+[![Node](node-current badge	/node/v/:packageName)]
+[![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)]
 
 Simple Express/Node.js app.
 
