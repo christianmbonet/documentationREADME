@@ -7,7 +7,7 @@ Simple Express/Node.js app.
 
 ## Requirements
 
-* Node.js: version 0.10 or higher is required
+* Node.js: v0.10 or higher is required
 * Yarn or NPM
 * Express.js: v4.17.1+
 
