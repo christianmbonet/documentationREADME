@@ -77,10 +77,10 @@ Example:
 }
 ```
 
-A POST request should return the following:
+For the example above, the POST request should return the following:
 
 ```
-successfully added transaction #: 1, in the amount of 30 to: francis
+successfully added transaction #: 2, in the amount of 30 to: francis
 ```
 
 #### DELETE
@@ -101,8 +101,8 @@ Example:
 }
 ```
 
-A DELETE request should return the following:
+For the example above, the DELETE request should return the following:
 
 ```
-sucessfully deleted transaction #: 1}}
+sucessfully deleted transaction #: 2}}
 ```
