@@ -87,7 +87,7 @@ successfully added transaction #: 1, in the amount of 30 to: francis
 
 DELETE a single transaction.
 
-To DELETE a single transaction, send a delete request using the following key-value pair in the body of the request:
+To DELETE a single transaction, send a DELETE request using the following key-value pair in the body of the request (make sure to include the id of the transaction you wish to delete):
 ```
 {
         "id": number
