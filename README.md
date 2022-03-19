@@ -10,28 +10,31 @@ Simple Express/Node.js app.
 
 ## Setup
 
-#### Clone GitHub Repo:
+1. Clone GitHub Repo
 
-In your terminal run the following commands:
+From your terminal, run the following commands:
 
 ```git clone git@github.com:quiknode-labs/DocumenationWriterInterview.git```<br/>
+
+cd into working directory:
+
 ```cd DocumenationWriterInterview```<br/>
 ```cd Written```
 
-Once inside "Written" folder, install dependencies by running the following:
+2. Install Dependencies
 
 ```yarn```<br/>
 ```yarn add express```
 
 ## To Test Methods:
 
-Start server in development mode:
+1. Download Postman or Insomnia for testing.
+
+2. Start server in development mode:
 
 ```yarn dev```
 
-Use Postman or Insomnia to test methods.
-
-Make all requests to http://localhost:3000/
+2. Make all requests to http://localhost:3000/
 
 #### GET
 
