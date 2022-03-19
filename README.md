@@ -36,7 +36,7 @@ cd into working directory:
 
 ##### 3. Make all requests to http://localhost:3000/
 
-#### * GET
+#### GET
 
 GET all transactions.
 
@@ -52,7 +52,7 @@ In this case, the following should be returned:
 ```
 
 
-#### * POST
+#### <strong>POST</strong>
 
 POST a new transaction.
 
