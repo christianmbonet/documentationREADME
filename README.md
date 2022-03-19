@@ -38,7 +38,9 @@ cd into working directory:
 
 #### GET
 
-Returns all transactions
+Return all transactions.
+
+For a get request, send a get request to the API with 
 
 In this case, the following will be returned: 
 ```
@@ -51,6 +53,8 @@ In this case, the following will be returned:
 
 
 #### POST
+
+Post a new transaction.
 
 To send a post request use the following key/value pair format:
 
@@ -71,7 +75,13 @@ Example:
 }
 ```
 
+A post request will return the following:
+
+```successfully added transaction #: 1, in the amount of 30 to: francis```
+
 #### DELETE
+
+Delete a single transaction.
 
 To delete a post send a delete request to: 
 ```
@@ -87,3 +97,6 @@ Example:
 }
 ```
 
+A delete request will return the following:
+
+```sucessfully deleted transaction #: 1}}```
