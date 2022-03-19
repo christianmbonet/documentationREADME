@@ -40,9 +40,9 @@ cd into working directory:
 
 GET all transactions.
 
-To send a GET request, send request with an empty body:
+To send a GET request, send request with an empty body.
 
-In this case, the following should be returned: 
+In this case, the following will be returned: 
 ```
     {
         "id": 1,
@@ -55,7 +55,7 @@ In this case, the following should be returned:
 
 POST a new transaction.
 
-To send a POST request use the following key/value pairs format in body of the request:
+To send a POST request, use the following key-value pairs format in body of the request:
 
 ```
 {
@@ -74,7 +74,7 @@ Example:
 }
 ```
 
-A post request should return the following:
+A POST request should return the following:
 
 ```
 successfully added transaction #: 1, in the amount of 30 to: francis
@@ -84,7 +84,7 @@ successfully added transaction #: 1, in the amount of 30 to: francis
 
 DELETE a single transaction.
 
-To delete a single transaction, send a delete request with using the following key/value pairs in the body of the request:
+To DELETE a single transaction, send a delete request using the following key-value pair in the body of the request:
 ```
 {
         "id": number
@@ -98,7 +98,7 @@ Example:
 }
 ```
 
-A delete request should return the following:
+A DELETE request should return the following:
 
 ```
 sucessfully deleted transaction #: 1}}
