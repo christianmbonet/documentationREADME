@@ -35,7 +35,8 @@ cd into working directory:
 ```yarn dev```
 
 ##### 3. Make all requests to http://localhost:3000/
-</br>
+<br/>
+
 #### GET
 
 GET all transactions.
@@ -51,6 +52,7 @@ In this case, the following should be returned:
     }
 ```
 <br/>
+
 #### POST
 
 POST a new transaction.
@@ -78,6 +80,7 @@ A post request should return the following:
 
 ```successfully added transaction #: 1, in the amount of 30 to: francis```
 <br/>
+
 #### DELETE
 
 DELETE a single transaction.
