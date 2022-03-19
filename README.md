@@ -50,7 +50,6 @@ In this case, the following should be returned:
         "to": "joe"
     }
 ```
-
 #### POST
 
 POST a new transaction.
