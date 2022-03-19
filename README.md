@@ -28,15 +28,15 @@ cd into working directory:
 
 ## To Test Methods:
 
-### 1. Download Postman or Insomnia for testing.
+#### 1. Download Postman or Insomnia for testing.
 
-### 2. Start server in development mode:
+#### 2. Start server in development mode:
 
 ```yarn dev```
 
-### 3. Make all requests to http://localhost:3000/
+#### 3. Make all requests to http://localhost:3000/
 
-#### GET
+##### GET
 
 Returns all transactions
 
@@ -51,7 +51,7 @@ In this case, the following will be returned:
 ]
 
 
-#### POST
+##### POST
 
 To send a post request use the following key/value pair format:
 
@@ -70,7 +70,7 @@ Example:
 }
 
 
-#### DELETE
+##### DELETE
 
 To delete a post send a delete request to: 
 
