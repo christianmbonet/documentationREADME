@@ -36,6 +36,8 @@ cd into working directory:
 
 #### 3. Make all requests to http://localhost:3000/
 
+<br/>
+
 #### GET
 
 GET all transactions.
@@ -75,7 +77,7 @@ Example:
 }
 ```
 
-A post request will return the following:
+A post request should return the following:
 
 ```successfully added transaction #: 1, in the amount of 30 to: francis```
 
@@ -97,6 +99,6 @@ Example:
 }
 ```
 
-A delete request will return the following:
+A delete request should return the following:
 
 ```sucessfully deleted transaction #: 1}}```
