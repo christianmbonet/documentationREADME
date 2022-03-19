@@ -54,15 +54,17 @@ In this case, the following will be returned:
 
 To send a post request use the following key/value pair format:
 
+```
 {<br/>
         "id": number,<br/>
         "amount": number,<br/>
         "to": "string"<br/>
 }
+```
 
 Example:
 
-{<br/>
+{
         "id": 2,<br/>
         "amount": 30,<br/>
         "to": "francis"<br/>
