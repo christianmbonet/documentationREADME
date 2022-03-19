@@ -40,7 +40,7 @@ cd into working directory:
 
 Return all transactions.
 
-For a get request, send a get request to the API with 
+To send a GET request, send request with the body of the request empty.
 
 In this case, the following will be returned: 
 ```
@@ -56,7 +56,7 @@ In this case, the following will be returned:
 
 Post a new transaction.
 
-To send a post request use the following key/value pair format:
+To send a POST request use the following key/value pair format:
 
 ```
 {
