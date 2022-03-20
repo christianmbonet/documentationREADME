@@ -29,15 +29,15 @@ cd into working directory:
 ```yarn```<br/>
 ```yarn add express```
 
+#### 3. Start server in development mode:
+
+```yarn dev```
+
 ## To Test Methods:
 
 ##### 1. Download Postman or Insomnia for testing.
 
-##### 2. Start server in development mode:
-
-```yarn dev```
-
-##### 3. Make all requests to http://localhost:3000/
+##### 2. Make all requests to http://localhost:3000/
 
 #### GET
 
